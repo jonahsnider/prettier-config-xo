@@ -1,8 +1,7 @@
 import test, {ExecutionContext} from 'ava';
-import {ReadonlyDeep} from 'type-fest';
-import {helloWorld} from '.';
+import {base} from './configs/base';
+import * as index from './index';
 
-test('hello world', (t: ReadonlyDeep<ExecutionContext>) => {
-	t.is(helloWorld(), 'Hello, world.', 'says hello world when subject is not provided');
-	t.is(helloWorld('TypeScript'), 'Hello, TypeScript.', 'uses subject param when provided');
+test('index', (t: ExecutionContext) => {
+	t.is(index, base, 'index.ts exports the base config');
 });

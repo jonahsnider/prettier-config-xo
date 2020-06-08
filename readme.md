@@ -1,67 +1,43 @@
-# [TypeScript](https://www.typescriptlang.org) Starter
+# `prettier-config-xo`
 
-[![Build Status](https://github.com/pizzafox/typescript-starter/workflows/CI/badge.svg)](https://github.com/pizzafox/typescript-starter/actions)
+[![Build Status](https://github.com/pizzafox/prettier-config-xo/workflows/CI/badge.svg)](https://github.com/pizzafox/prettier-config-xo/actions)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
-[![codecov](https://codecov.io/gh/pizzafox/typescript-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/pizzafox/typescript-starter)
+[![codecov](https://codecov.io/gh/pizzafox/prettier-config-xo/branch/master/graph/badge.svg)](https://codecov.io/gh/pizzafox/prettier-config-xo)
 
-My personal TypeScript starter template.
+Prettier config that follows the XO code style.
 
-## Prequisites
+## Usage
 
-This project uses [Node.js](https://nodejs.org) 12 to run.
+### Default config
 
-This project uses [Yarn](https://yarnpkg.com) to install dependencies, although you can use another package manager like [npm](https://www.npmjs.com) or [pnpm](https://pnpm.js.org).
+Add the `prettier` property to your `package.json`.
 
-```sh
-yarn install
-# or `npm install`
-# or `pnpm install`
+```json
+{
+	"name": "my-cool-library",
+	"version": "1.0.0",
+	"prettier": "prettier-config-xo"
+}
 ```
 
-## Building
+### Extending the configuration
 
-Run the `build` script to compile the TypeScript into the `tsc_output` folder.
-This will compile the `src` and the `test` directory, so be careful not to upload the whole folder as a published package.
-
-## Style
-
-This project uses [Prettier](https://prettier.io) and [XO](https://github.com/xojs/xo).
-
-You can run Prettier in the project with this command:
-
-```sh
-yarn run style
+```js
+// prettier.config.js, or some other file
+module.exports = {
+	...require('prettier-config-xo'),
+	semi: false
+};
 ```
 
-You can run XO with this command:
+### Spaces
 
-```sh
-yarn run lint
+You can use spaces instead of tabs with the space config:
+
+```json
+{
+	"name": "my-cool-library",
+	"version": "1.0.0",
+	"prettier": "prettier-config-xo/space"
+}
 ```
-
-Note that XO will also error if you have TypeScript errors, not just if your formatting is incorrect.
-
-## Linting
-
-This project uses [XO](https://github.com/xojs/xo) (which uses [ESLint](https://eslint.org) and some plugins internally) to perform static analysis on the TypeScript.
-It reports things like unused variables or not following code conventions.
-
-```sh
-yarn run lint
-```
-
-Note that XO will also error if you have incorrect formatting, not just if your TypeScript code has errors.
-
-## Testing
-
-Unit tests are in the `test` folder.
-You can run the tests with the `test` script:
-
-```sh
-yarn run test
-```
-
-### Coverage
-
-This will generate a `coverage` folder which has a breakdown of coverage of the project.
-The CI will upload the coverage information to [CodeCov](https://codecov.io) which can be [viewed here](https://codecov.io/gh/pizzafox/typescript-starter).

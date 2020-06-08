@@ -1,0 +1,12 @@
+.github
+.nyc_output
+.vscode
+coverage
+src
+.editorconfig
+.gitignore
+.releaserc.json
+prettier.config.js
+renovate.json
+tsconfig.json
+*.test.*

@@ -1,5 +1,5 @@
 import test, {ExecutionContext} from 'ava';
-import {configTest} from '../test-util';
+import {configTest} from '../util-for-testing';
 import {space} from './space';
 
 const good: string = [`if (true) {`, `  console.log('hello');`, `} else {`, `  console.log('world');`, `}`, ''].join('\n');

@@ -1,5 +1,5 @@
 import test, {ExecutionContext} from 'ava';
-import {configTest} from '../test-util';
+import {configTest} from '../util-for-testing';
 import {base} from './base';
 
 const good: string = [`if (true) {`, `\tconsole.log('hello');`, `} else {`, `\tconsole.log('world');`, `}`, ''].join('\n');

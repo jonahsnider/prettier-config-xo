@@ -1,3 +1,4 @@
+// eslint-disable-next-line ava/use-test
 import {ExecutionContext} from 'ava';
 import {format, Options} from 'prettier';
 

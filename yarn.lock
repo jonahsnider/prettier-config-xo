@@ -327,7 +327,7 @@
   resolved "https://registry.yarnpkg.com/@semantic-release/error/-/error-2.2.0.tgz#ee9d5a09c9969eade1ec864776aeda5c5cddbbf0"
   integrity sha512-9Tj/qn+y2j+sjCI3Jd+qseGtHjOAeg7dU2/lVcqIQ9TV3QDaDXDYXcoOHU+7o2Hwh8L8ymL4gfuO7KxDs3q2zg==
 
-"@semantic-release/exec@^5.0.0":
+"@semantic-release/exec@5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/exec/-/exec-5.0.0.tgz#69c253107a755dabf7c262d417269d099f714356"
   integrity sha512-t7LWXIvDJQbuGCy2WmMG51WyaGSLTvZBv9INvcI4S0kn+QjnnVVUMhcioIqhb0r3yqqarMzHVcABFug0q0OXjw==
@@ -472,7 +472,7 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/prettier@^2.0.1":
+"@types/prettier@2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.0.1.tgz#b6e98083f13faa1e5231bfa3bdb1b0feff536b6d"
   integrity sha512-boy4xPNEtiw6N3abRhBi/e7hNvy3Tt8E9ZRAQrwAGzoCGZS/1wjo9KY7JHhnfnEsG5wSjDbymCozUM9a3ea7OQ==
@@ -6985,7 +6985,7 @@ safe-regex@^2.1.1:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-semantic-release@^17.0.8:
+semantic-release@17.0.8:
   version "17.0.8"
   resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.0.8.tgz#68b80461fdd8eb445228ae23fd9e85857a50ae3f"
   integrity sha512-9KcdidiJ4xchrJXxPdaDQVlybgX0xTeKyVjRySYk5u9GpjibXD7E5F8cB0BvFLMDmMyrkCwcem0kFiaLD2VNPg==

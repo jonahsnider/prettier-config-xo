@@ -36,6 +36,12 @@
 	"engines": {
 		"node": "12"
 	},
+	"keywords": [
+		"xo",
+		"prettier",
+		"prettier-config",
+		"xo-config"
+	],
 	"license": "Apache-2.0",
 	"main": "./tsc_output/index.js",
 	"name": "prettier-config-xo",
@@ -56,10 +62,10 @@
 	},
 	"scripts": {
 		"build": "tsc",
+		"deploy": "semantic-release",
 		"lint": "xo",
 		"prebuild": "rm -rf tsc_output",
 		"pretest": "rm -rf coverage .nyc_output",
-		"deploy": "semantic-release",
 		"style": "prettier --ignore-path .gitignore --check .",
 		"test": "nyc ava"
 	},
@@ -73,6 +79,7 @@
 				}
 			}
 		],
+		"prettier": true,
 		"rules": {
 			"ava/no-import-test-files": [
 				"error",
@@ -82,7 +89,6 @@
 					]
 				}
 			]
-		},
-		"prettier": true
+		}
 	}
 }

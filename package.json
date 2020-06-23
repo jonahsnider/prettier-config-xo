@@ -33,9 +33,6 @@
 		"typescript": "3.9.3",
 		"xo": "0.32.0"
 	},
-	"engines": {
-		"node": "12"
-	},
 	"keywords": [
 		"xo",
 		"prettier",

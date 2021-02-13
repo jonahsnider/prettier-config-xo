@@ -22,7 +22,7 @@
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "1.0.1",
 		"@semantic-release/exec": "5.0.0",
-		"@types/prettier": "2.2.0",
+		"@types/prettier": "2.2.1",
 		"ava": "3.15.0",
 		"eslint-plugin-prettier": "3.3.1",
 		"nyc": "15.1.0",

@@ -44,6 +44,11 @@
 	],
 	"license": "Apache-2.0",
 	"main": "./tsc_output/index.js",
+	"exports": {
+		".": "./tsc_output/index.js",
+		"./space": "./tsc_output/space.js",
+		"./space.js": "./tsc_output/space.js"
+	},
 	"name": "prettier-config-xo",
 	"nyc": {
 		"all": true,

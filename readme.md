@@ -35,10 +35,6 @@ module.exports = {
 
 You can use spaces instead of tabs with the space config:
 
-```json
-{
-	"name": "my-cool-library",
-	"version": "1.0.0",
-	"prettier": "prettier-config-xo/space"
-}
+```js
+module.exports = require('prettier-config-xo/space');
 ```

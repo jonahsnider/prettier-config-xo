@@ -17,14 +17,14 @@
 		]
 	},
 	"bugs": {
-		"url": "https://github.com/pizzafox/prettier-config-xo/issues"
+		"url": "https://github.com/jonahsnider/prettier-config-xo/issues"
 	},
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "1.0.1",
 		"@semantic-release/exec": "5.0.0",
 		"@types/prettier": "2.2.3",
 		"ava": "3.15.0",
-		"eslint-plugin-prettier": "3.3.1",
+		"eslint-plugin-prettier": "3.4.0",
 		"nyc": "15.1.0",
 		"prettier": "2.2.1",
 		"semantic-release": "17.4.2",
@@ -44,6 +44,11 @@
 	],
 	"license": "Apache-2.0",
 	"main": "./tsc_output/index.js",
+	"exports": {
+		".": "./tsc_output/index.js",
+		"./space": "./tsc_output/space.js",
+		"./space.js": "./tsc_output/space.js"
+	},
 	"name": "prettier-config-xo",
 	"nyc": {
 		"all": true,
@@ -58,7 +63,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/pizzafox/prettier-config-xo.git"
+		"url": "git+https://github.com/jonahsnider/prettier-config-xo.git"
 	},
 	"scripts": {
 		"build": "tsc",

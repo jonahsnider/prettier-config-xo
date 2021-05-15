@@ -1,5 +1,5 @@
-import {base} from './base';
 import {Options} from 'prettier';
+import {base} from './base';
 
 /**
  * Base XO config but uses spaces.

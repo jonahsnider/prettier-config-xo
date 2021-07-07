@@ -27,7 +27,7 @@ Add the `prettier` property to your `package.json`.
 // prettier.config.js, or some other file
 module.exports = {
 	...require('prettier-config-xo'),
-	semi: false
+	semi: false,
 };
 ```
 

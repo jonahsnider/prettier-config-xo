@@ -8,6 +8,6 @@ export const base: Options = {
 	bracketSpacing: false,
 	jsxSingleQuote: true,
 	singleQuote: true,
-	trailingComma: 'none',
-	useTabs: true
+	trailingComma: 'all',
+	useTabs: true,
 };

@@ -1,3 +1,1 @@
-/* eslint-disable unicorn/prefer-module */
-
-module.exports = {...require('./tsc_output'), printWidth: 160};
+module.exports = {...require('./tsc_output/index.js'), printWidth: 160};

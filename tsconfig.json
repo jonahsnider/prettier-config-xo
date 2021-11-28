@@ -5,6 +5,7 @@
 		"moduleResolution": "node",
 		"outDir": "tsc_output",
 		"resolveJsonModule": true,
+		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
 		"target": "es2018"

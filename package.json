@@ -21,6 +21,8 @@
 	},
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "1.0.1",
+		"@jonahsnider/prettier-config": "1.1.0",
+		"@jonahsnider/xo-config": "5.0.0",
 		"@semantic-release/exec": "6.0.2",
 		"@types/prettier": "2.4.2",
 		"ava": "3.15.0",
@@ -31,7 +33,7 @@
 		"source-map-support": "0.5.21",
 		"ts-node": "10.4.0",
 		"typescript": "4.5.2",
-		"xo": "0.46.4"
+		"xo": "0.47.0"
 	},
 	"engines": {
 		"node": ">=10.13.0"
@@ -49,6 +51,7 @@
 		"./space": "./tsc_output/space.js",
 		"./space.js": "./tsc_output/space.js"
 	},
+	"prettier": "@jonahsnider/prettier-config",
 	"name": "prettier-config-xo",
 	"nyc": {
 		"all": true,
@@ -74,26 +77,5 @@
 		"style": "prettier --ignore-path .gitignore --check .",
 		"test": "nyc ava"
 	},
-	"version": "0.0.0-development",
-	"xo": {
-		"overrides": [
-			{
-				"files": "**/*.test.ts",
-				"rules": {
-					"@typescript-eslint/prefer-readonly-parameter-types": "off"
-				}
-			}
-		],
-		"prettier": true,
-		"rules": {
-			"ava/no-import-test-files": [
-				"error",
-				{
-					"files": [
-						"!src/test-util.ts"
-					]
-				}
-			]
-		}
-	}
+	"version": "0.0.0-development"
 }

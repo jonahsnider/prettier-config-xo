@@ -1,9 +1,41 @@
 {
+	"name": "prettier-config-xo",
+	"version": "0.0.0-development",
+	"keywords": [
+		"xo",
+		"prettier",
+		"prettier-config",
+		"xo-config"
+	],
+	"bugs": {
+		"url": "https://github.com/jonahsnider/prettier-config-xo/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jonahsnider/prettier-config-xo.git"
+	},
+	"license": "Apache-2.0",
 	"author": {
-		"email": "jonah@jonah.pw",
 		"name": "Jonah Snider",
+		"email": "jonah@jonah.pw",
 		"url": "https://jonah.pw"
 	},
+	"exports": {
+		".": "./tsc_output/index.js",
+		"./space": "./tsc_output/space.js",
+		"./space.js": "./tsc_output/space.js"
+	},
+	"main": "./tsc_output/index.js",
+	"scripts": {
+		"prebuild": "rm -rf tsc_output",
+		"build": "tsc",
+		"deploy": "semantic-release",
+		"lint": "xo",
+		"style": "prettier --ignore-path .gitignore --check .",
+		"pretest": "rm -rf coverage .nyc_output",
+		"test": "nyc ava"
+	},
+	"prettier": "@jonahsnider/prettier-config",
 	"ava": {
 		"extensions": [
 			"ts"
@@ -16,8 +48,16 @@
 			"source-map-support/register"
 		]
 	},
-	"bugs": {
-		"url": "https://github.com/jonahsnider/prettier-config-xo/issues"
+	"nyc": {
+		"all": true,
+		"extends": "@istanbuljs/nyc-config-typescript",
+		"include": [
+			"src/**/*.ts"
+		],
+		"reporter": [
+			"lcov",
+			"cobertura"
+		]
 	},
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "1.0.1",
@@ -37,45 +77,5 @@
 	},
 	"engines": {
 		"node": ">=10.13.0"
-	},
-	"keywords": [
-		"xo",
-		"prettier",
-		"prettier-config",
-		"xo-config"
-	],
-	"license": "Apache-2.0",
-	"main": "./tsc_output/index.js",
-	"exports": {
-		".": "./tsc_output/index.js",
-		"./space": "./tsc_output/space.js",
-		"./space.js": "./tsc_output/space.js"
-	},
-	"prettier": "@jonahsnider/prettier-config",
-	"name": "prettier-config-xo",
-	"nyc": {
-		"all": true,
-		"extends": "@istanbuljs/nyc-config-typescript",
-		"include": [
-			"src/**/*.ts"
-		],
-		"reporter": [
-			"lcov",
-			"cobertura"
-		]
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/jonahsnider/prettier-config-xo.git"
-	},
-	"scripts": {
-		"build": "tsc",
-		"deploy": "semantic-release",
-		"lint": "xo",
-		"prebuild": "rm -rf tsc_output",
-		"pretest": "rm -rf coverage .nyc_output",
-		"style": "prettier --ignore-path .gitignore --check .",
-		"test": "nyc ava"
-	},
-	"version": "0.0.0-development"
+	}
 }

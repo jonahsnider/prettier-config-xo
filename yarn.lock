@@ -296,13 +296,13 @@
     "@types/prettier" "2.4.1"
     prettier-config-xo "2.0.0"
 
-"@jonahsnider/xo-config@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@jonahsnider/xo-config/-/xo-config-5.0.0.tgz#f9a36545c2d4ed7a74458388d1d42c452ca74d36"
-  integrity sha512-TsHitk8rSdNnTd7TZS2RNyrIjgNaUoBs5HIK2Yld7e3YkfizZekcptNXJ+uBDhcp5X2XWefcUyzLBBlMbYWU0A==
+"@jonahsnider/xo-config@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@jonahsnider/xo-config/-/xo-config-5.0.1.tgz#58e76e70a39f49c99e2a7a69bf4039bc76f1f984"
+  integrity sha512-hhQoXPDdB+kuh+VOLIOblQ9jJN4moRqtJzuQy5RjMbTZOd/g0HUX/eeYfJuj75JjFWDhnFUzDb9QiV0AiehLtw==
   dependencies:
-    "@types/xo" "0.39.1"
-    eslint-plugin-jsdoc "37.0.0"
+    "@types/xo" "0.39.2"
+    eslint-plugin-jsdoc "37.0.3"
     eslint-plugin-tsdoc "0.2.14"
 
 "@microsoft/tsdoc-config@0.15.2":
@@ -775,10 +775,10 @@
   resolved "https://registry.yarnpkg.com/@types/retry/-/retry-0.12.0.tgz#2b35eccfcee7d38cd72ad99232fbd58bffb3c84d"
   integrity sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==
 
-"@types/xo@0.39.1":
-  version "0.39.1"
-  resolved "https://registry.yarnpkg.com/@types/xo/-/xo-0.39.1.tgz#d8869f68a94f2c7625faf98744db3ada5a668c40"
-  integrity sha512-ddKM2v+T+vS5NA0yE6aSbdb9Q7YTXzLgRDS+dwNF045czReghoMWXx9rVxuYBSseTOfQFpJlgbqz9MX9pVlKAw==
+"@types/xo@0.39.2":
+  version "0.39.2"
+  resolved "https://registry.yarnpkg.com/@types/xo/-/xo-0.39.2.tgz#210e1572387a83243c268d4954267cc22d0d2cf1"
+  integrity sha512-tFqu2JpvVvSS6TTDULySllSz+g04880T4XqkPJx1ZGUZmiws0ii7jm/lFA6xICdtn0he843iHZ53cXzxShugBQ==
   dependencies:
     "@types/eslint" "*"
 
@@ -2382,10 +2382,10 @@ eslint-plugin-import@^2.25.3:
     resolve "^1.20.0"
     tsconfig-paths "^3.11.0"
 
-eslint-plugin-jsdoc@37.0.0:
-  version "37.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-37.0.0.tgz#b7094c7a7dfaf48c037cd781fe7cef53ff26b2d4"
-  integrity sha512-Pv5/Y9stNPHJEoF9GM+pcB9nOT4sNToVxv9v5vsyr8tbam0tM4DUKFShtJBZ+fZFdwhFaQU1hGcPQqsjy+dKCQ==
+eslint-plugin-jsdoc@37.0.3:
+  version "37.0.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-37.0.3.tgz#42ddd0393c166c2724a7fdee808b94ab1d9dfb00"
+  integrity sha512-Qg/gIZAfcrM4Qu/JzcnxPGD45Je6wPLFzMZQboeqit/CL4aY6wuzBTkgUMiWXfw/PaPl+sb0GF1XdBlV23ReDA==
   dependencies:
     "@es-joy/jsdoccomment" "0.12.0"
     comment-parser "1.2.4"
@@ -4483,7 +4483,6 @@ minipass-fetch@^1.3.0, minipass-fetch@^1.3.2:
   resolved "https://registry.yarnpkg.com/minipass-fetch/-/minipass-fetch-1.3.3.tgz#34c7cea038c817a8658461bf35174551dce17a0a"
   integrity sha512-akCrLDWfbdAWkMLBxJEeWTdNsjML+dt5YgOI4gJ53vuO0vrmYQkUPxa6j6V65s9CcePIr2SSWqjT2EcrNseryQ==
   dependencies:
-    encoding "^0.1.12"
     minipass "^3.1.0"
     minipass-sized "^1.0.3"
     minizlib "^2.0.0"

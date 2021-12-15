@@ -296,10 +296,10 @@
     "@types/prettier" "2.4.1"
     prettier-config-xo "2.0.0"
 
-"@jonahsnider/xo-config@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@jonahsnider/xo-config/-/xo-config-5.0.1.tgz#58e76e70a39f49c99e2a7a69bf4039bc76f1f984"
-  integrity sha512-hhQoXPDdB+kuh+VOLIOblQ9jJN4moRqtJzuQy5RjMbTZOd/g0HUX/eeYfJuj75JjFWDhnFUzDb9QiV0AiehLtw==
+"@jonahsnider/xo-config@5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@jonahsnider/xo-config/-/xo-config-5.0.3.tgz#58181cb8ff336e11c02cfb8affaf9597e04625d6"
+  integrity sha512-xoEjxWy6l2lPx+YQLHk4B9t+nLn+eOGHnlNmdR+VfN3eh5H620lP7hZlHgUhSn5cdavyWWGLrRWwI7RUkN3D6Q==
   dependencies:
     "@types/xo" "0.39.2"
     eslint-plugin-jsdoc "37.0.3"

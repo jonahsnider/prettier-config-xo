@@ -291,12 +291,12 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@jonahsnider/prettier-config@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@jonahsnider/prettier-config/-/prettier-config-1.1.0.tgz#86d297ef43514fd64332aae625617163abc72d46"
-  integrity sha512-rzIp9UMki7ICJa8h414MUp6TebiybCfXLtSh7Fj7HxbfHbxz8jBeWKqZ2diNhHCtNvCRmqimwHVofJdSxSk8KQ==
+"@jonahsnider/prettier-config@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@jonahsnider/prettier-config/-/prettier-config-1.1.1.tgz#40f9bd46b1e75f76bd480f08e83809b011c63e25"
+  integrity sha512-2QrxCpwG+oGTyDUy+sznimPUGeCpcVqabpew7Aj+RSrlx25k9se++w5NMOD4WVIcOZ2gGymC0lBxZidqMg+giA==
   dependencies:
-    "@types/prettier" "2.4.1"
+    "@types/prettier" "2.6.0"
     prettier-config-xo "2.0.0"
 
 "@jonahsnider/xo-config@5.0.4":
@@ -781,11 +781,6 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
-
-"@types/prettier@2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.4.1.tgz#e1303048d5389563e130f5bdd89d37a99acb75eb"
-  integrity sha512-Fo79ojj3vdEZOHg3wR9ksAMRz4P3S5fDB5e/YWZiFnyFQI1WY2Vftu9XoXVVtJfxB7Bpce/QTqWSSntkz2Znrw==
 
 "@types/prettier@2.6.0":
   version "2.6.0"

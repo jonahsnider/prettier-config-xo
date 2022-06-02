@@ -62,18 +62,18 @@
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "1.0.2",
 		"@jonahsnider/prettier-config": "1.1.1",
-		"@jonahsnider/xo-config": "5.0.4",
+		"@jonahsnider/xo-config": "5.1.0",
 		"@semantic-release/exec": "6.0.3",
 		"@types/prettier": "2.6.3",
 		"ava": "4.2.0",
 		"eslint-plugin-prettier": "4.0.0",
 		"nyc": "15.1.0",
-		"prettier": "2.5.1",
+		"prettier": "2.6.2",
 		"semantic-release": "19.0.2",
 		"source-map-support": "0.5.21",
 		"ts-node": "10.8.0",
-		"typescript": "4.5.5",
-		"xo": "0.47.0"
+		"typescript": "4.7.2",
+		"xo": "0.49.0"
 	},
 	"engines": {
 		"node": ">=10.13.0"

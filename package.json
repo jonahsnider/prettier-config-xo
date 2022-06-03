@@ -65,7 +65,7 @@
 		"@jonahsnider/xo-config": "5.1.0",
 		"@semantic-release/exec": "6.0.3",
 		"@types/prettier": "2.6.3",
-		"ava": "4.2.0",
+		"ava": "4.3.0",
 		"eslint-plugin-prettier": "4.0.0",
 		"nyc": "15.1.0",
 		"prettier": "2.6.2",

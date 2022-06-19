@@ -61,7 +61,7 @@
 	},
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "1.0.2",
-		"@jonahsnider/prettier-config": "1.1.1",
+		"@jonahsnider/prettier-config": "1.1.2",
 		"@jonahsnider/xo-config": "5.1.0",
 		"@semantic-release/exec": "6.0.3",
 		"@types/prettier": "2.6.3",

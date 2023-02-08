@@ -68,7 +68,7 @@
 		"ava": "5.2.0",
 		"eslint-plugin-prettier": "4.2.1",
 		"nyc": "15.1.0",
-		"prettier": "2.8.3",
+		"prettier": "2.8.4",
 		"semantic-release": "19.0.5",
 		"source-map-support": "0.5.21",
 		"ts-node": "10.9.1",

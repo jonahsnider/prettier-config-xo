@@ -9,9 +9,9 @@ import {format} from 'prettier';
  * @param bad - An improperly formatted version of the `good` script
  * @param t - AVA execution context
  */
-export function configTest(config: Options, good: string, bad: string, t: ExecutionContext): void {
+export async function configTest(config: Options, good: string, bad: string, t: ExecutionContext): Promise<void> {
 	const pathedConfig = {...config, filepath: 'file.ts'};
-	t.notThrows(() => format('', pathedConfig), 'config is valid');
-	t.is(format(good, pathedConfig), good, "doesn't format when input is good");
-	t.is(format(bad, pathedConfig), good, 'formats when input is bad');
+	t.notThrows(async () => format('', pathedConfig), 'config is valid');
+	t.is(await format(good, pathedConfig), good, "doesn't format when input is good");
+	t.is(await format(bad, pathedConfig), good, 'formats when input is bad');
 }

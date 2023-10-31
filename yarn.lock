@@ -3887,6 +3887,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"figures@npm:^6.0.0":
+  version: 6.0.1
+  resolution: "figures@npm:6.0.1"
+  dependencies:
+    is-unicode-supported: ^2.0.0
+  checksum: 66c2b2d76eff324025181f205e2ad725e1ce50d5a24973282249aed4858878b8aa96d8286541c65564ef38ff447802c1320c6cd07645307211f3abe32458bee4
+  languageName: node
+  linkType: hard
+
 "file-entry-cache@npm:^6.0.1":
   version: 6.0.1
   resolution: "file-entry-cache@npm:6.0.1"
@@ -5381,6 +5390,13 @@ __metadata:
   version: 1.2.0
   resolution: "is-unicode-supported@npm:1.2.0"
   checksum: 2d90b4b3ce622c1ecf7414b8954cc8f0483576d4d8e6892cbbdc1e2dd33d6126b1cf0319cf1549bee03d45f989b8b0de3309c879a9388a4fe6b8836f866ed86c
+  languageName: node
+  linkType: hard
+
+"is-unicode-supported@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "is-unicode-supported@npm:2.0.0"
+  checksum: 000b80639dedaf59a385f1c0a57f97a4d1435e0723716f24cc19ad94253a7a0a9f838bdc9ac49b10a29ac93b01f52ae9b2ed358a8876caf1eb74d73b4ede92b2
   languageName: node
   linkType: hard
 
@@ -7605,7 +7621,7 @@ __metadata:
     eslint-plugin-prettier: 5.0.1
     nyc: 15.1.0
     prettier: 3.0.3
-    semantic-release: 22.0.5
+    semantic-release: 22.0.6
     source-map-support: 0.5.21
     ts-node: 10.9.1
     typescript: 5.2.2
@@ -8211,9 +8227,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:22.0.5":
-  version: 22.0.5
-  resolution: "semantic-release@npm:22.0.5"
+"semantic-release@npm:22.0.6":
+  version: 22.0.6
+  resolution: "semantic-release@npm:22.0.6"
   dependencies:
     "@semantic-release/commit-analyzer": ^11.0.0
     "@semantic-release/error": ^4.0.0
@@ -8225,7 +8241,7 @@ __metadata:
     debug: ^4.0.0
     env-ci: ^10.0.0
     execa: ^8.0.0
-    figures: ^5.0.0
+    figures: ^6.0.0
     find-versions: ^5.1.0
     get-stream: ^6.0.0
     git-log-parser: ^1.2.0
@@ -8245,7 +8261,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 69ab55e50883cce609d19ca5ee2904e8e673b826272cfdc87af711a222fb2179bf84d76d2d6b15e6ac53d0f35d4c1c23e716f0f9e74d6263c4bde9f227242260
+  checksum: bd536f528675fd781c60d95f6ef064b0b0e387a6257425fdc77af9a95e9644d99ea49937b0871dca3e876049e7c57a57b6b1154a4b0f632023f544780a8fb1bc
   languageName: node
   linkType: hard
 

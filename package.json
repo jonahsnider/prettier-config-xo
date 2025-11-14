@@ -42,7 +42,7 @@
 		"build": "zshy",
 		"deploy": "semantic-release",
 		"lint": "xo",
-		"style": "prettier --ignore-path .gitignore --check .",
+		"style": "prettier --check .",
 		"pretest": "rm -rf coverage .nyc_output",
 		"test": "nyc ava"
 	},

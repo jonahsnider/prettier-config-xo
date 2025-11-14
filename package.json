@@ -41,7 +41,8 @@
 	"scripts": {
 		"build": "zshy",
 		"deploy": "semantic-release",
-		"lint": "xo",
+		"lint": "xo --prettier",
+		"lint:fix": "xo --fix",
 		"style": "prettier --check .",
 		"pretest": "rm -rf coverage .nyc_output",
 		"test": "nyc ava"

@@ -1,6 +1,5 @@
 import type {ExecutionContext} from 'ava';
-import type {Options} from 'prettier';
-import {format} from 'prettier';
+import {type Options, format} from 'prettier';
 
 /**
  * Test a config with Prettier

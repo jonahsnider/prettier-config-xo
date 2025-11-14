@@ -1,3 +1,3 @@
-import {base} from './configs/base';
+import {base} from './configs/base.js';
 
 export = base;

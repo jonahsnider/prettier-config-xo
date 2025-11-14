@@ -75,8 +75,8 @@
 		"typescript": "5.3.3",
 		"xo": "0.56.0"
 	},
+	"packageManager": "yarn@3.8.1",
 	"engines": {
 		"node": ">=10.13.0"
-	},
-	"packageManager": "yarn@3.8.1"
+	}
 }

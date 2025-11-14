@@ -88,7 +88,7 @@
 		"xo": "0.61.1",
 		"zshy": "0.4.4"
 	},
-	"packageManager": "yarn@3.8.1",
+	"packageManager": "yarn@4.11.0",
 	"engines": {
 		"node": ">=10.13.0"
 	},

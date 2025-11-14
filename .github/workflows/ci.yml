@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout git repository
-        uses: actions/checkout@v4
+      - name: Checkout Git repository
+        uses: actions/checkout@v5
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: '18'
+          node-version: 'lts/*'
           cache: 'yarn'
       - name: Install dependencies with Yarn
         run: yarn install
@@ -26,19 +26,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout git repository
-        uses: actions/checkout@v4
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache Yarn dependencies
-        uses: actions/cache@v4
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      - name: Checkout Git repository
+        uses: actions/checkout@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          node-version: 'lts/*'
+          cache: 'yarn'
       - name: Install dependencies with Yarn
         run: yarn install
       - name: Lint
@@ -49,12 +43,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout git repository
-        uses: actions/checkout@v4
+      - name: Checkout Git repository
+        uses: actions/checkout@v5
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: '18'
+          node-version: 'lts/*'
           cache: 'yarn'
       - name: Install dependencies with Yarn
         run: yarn install
@@ -66,12 +60,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout git repository
-        uses: actions/checkout@v4
+      - name: Checkout Git repository
+        uses: actions/checkout@v5
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: '18'
+          node-version: 'lts/*'
           cache: 'yarn'
       - name: Install dependencies with Yarn
         run: yarn install
@@ -91,12 +85,12 @@ jobs:
     needs: [build, lint, style, test]
 
     steps:
-      - name: Checkout git repository
-        uses: actions/checkout@v4
+      - name: Checkout Git repository
+        uses: actions/checkout@v5
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: '18'
+          node-version: 'lts/*'
           cache: 'yarn'
       - name: Install dependencies with Yarn
         run: yarn install

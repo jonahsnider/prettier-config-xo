@@ -1382,7 +1382,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:8.46.4, @typescript-eslint/parser@npm:^8.32.1":
+"@typescript-eslint/parser@npm:8.46.4, @typescript-eslint/parser@npm:^8.37.0":
   version: 8.46.4
   resolution: "@typescript-eslint/parser@npm:8.46.4"
   dependencies:
@@ -4006,7 +4006,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import-x@npm:^4.12.2":
+"eslint-plugin-import-x@npm:^4.16.1":
   version: 4.16.1
   resolution: "eslint-plugin-import-x@npm:4.16.1"
   dependencies:
@@ -4032,7 +4032,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:^17.18.0":
+"eslint-plugin-n@npm:^17.21.0":
   version: 17.23.1
   resolution: "eslint-plugin-n@npm:17.23.1"
   dependencies:
@@ -4065,7 +4065,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:5.5.4, eslint-plugin-prettier@npm:^5.4.0":
+"eslint-plugin-prettier@npm:5.5.4, eslint-plugin-prettier@npm:^5.5.1":
   version: 5.5.4
   resolution: "eslint-plugin-prettier@npm:5.5.4"
   dependencies:
@@ -4223,7 +4223,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^9.27.0":
+"eslint@npm:^9.31.0":
   version: 9.39.1
   resolution: "eslint@npm:9.39.1"
   dependencies:
@@ -5122,7 +5122,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^16.0.0, globals@npm:^16.1.0":
+"globals@npm:^16.0.0, globals@npm:^16.3.0":
   version: 16.5.0
   resolution: "globals@npm:16.5.0"
   checksum: e0363245cfc6e36ac6bf940415160a05d66e7985fa3856d5383ad49292b6d249d80fd03759e09d6491109648a121849b23b77c7391a11862923e6995268a7cd6
@@ -8699,7 +8699,7 @@ __metadata:
     semantic-release: 22.0.12
     tsx: 4.20.6
     typescript: 5.9.3
-    xo: 0.61.1
+    xo: 1.2.3
     zshy: 0.4.4
   languageName: unknown
   linkType: soft
@@ -8722,7 +8722,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.6.2, prettier@npm:^3.5.3":
+"prettier@npm:3.6.2, prettier@npm:^3.6.2":
   version: 3.6.2
   resolution: "prettier@npm:3.6.2"
   bin:
@@ -10583,7 +10583,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.3.0, typescript-eslint@npm:^8.32.1":
+"typescript-eslint@npm:^8.3.0, typescript-eslint@npm:^8.37.0":
   version: 8.46.4
   resolution: "typescript-eslint@npm:8.46.4"
   dependencies:
@@ -11123,44 +11123,44 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xo@npm:0.61.1":
-  version: 0.61.1
-  resolution: "xo@npm:0.61.1"
+"xo@npm:1.2.3":
+  version: 1.2.3
+  resolution: "xo@npm:1.2.3"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": ^4.5.0
     "@sindresorhus/tsconfig": ^7.0.0
     "@stylistic/eslint-plugin": ^4.2.0
-    "@typescript-eslint/parser": ^8.32.1
+    "@typescript-eslint/parser": ^8.37.0
     arrify: ^3.0.0
     cosmiconfig: ^9.0.0
     define-lazy-prop: ^3.0.0
-    eslint: ^9.27.0
+    eslint: ^9.31.0
     eslint-config-prettier: ^10.1.5
     eslint-config-xo-react: ^0.28.0
     eslint-config-xo-typescript: ^7.0.0
     eslint-formatter-pretty: ^6.0.1
     eslint-plugin-ava: ^15.0.1
-    eslint-plugin-import-x: ^4.12.2
-    eslint-plugin-n: ^17.18.0
+    eslint-plugin-import-x: ^4.16.1
+    eslint-plugin-n: ^17.21.0
     eslint-plugin-no-use-extend-native: ^0.7.2
-    eslint-plugin-prettier: ^5.4.0
+    eslint-plugin-prettier: ^5.5.1
     eslint-plugin-promise: ^7.2.1
     eslint-plugin-unicorn: ^59.0.1
     find-cache-directory: ^6.0.0
     get-stdin: ^9.0.0
     get-tsconfig: ^4.10.1
-    globals: ^16.1.0
+    globals: ^16.3.0
     globby: ^14.1.0
     meow: ^13.2.0
     micromatch: ^4.0.8
     open-editor: ^5.1.0
     path-exists: ^5.0.0
-    prettier: ^3.5.3
+    prettier: ^3.6.2
     type-fest: ^4.41.0
-    typescript-eslint: ^8.32.1
+    typescript-eslint: ^8.37.0
   bin:
     xo: dist/cli.js
-  checksum: 247d5873300069c3a1e89f356e524b6db1d8e57b8ea15a8cb9737f735037c5c26b43ad5e0bb67455052f6fa2684b7a85deab78a9b6999de4b1f535c942e0532e
+  checksum: 6dbea542d2a8564fe6acdbfc1a246f96086007f2554e3d1417fb9cf8726e1e8d5e878143e3d6ca3e8579bf3eac39055fd57b52a66aa4a3de3a0a8fb9c39b1fc6
   languageName: node
   linkType: hard
 

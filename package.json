@@ -59,7 +59,7 @@
 		"semantic-release": "22.0.12",
 		"tsx": "4.20.6",
 		"typescript": "5.9.3",
-		"xo": "0.61.1",
+		"xo": "1.2.3",
 		"zshy": "0.4.4"
 	},
 	"packageManager": "yarn@3.8.1",

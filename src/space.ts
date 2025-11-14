@@ -1,3 +1,1 @@
-import {space} from './configs/space.js';
-
-export = space;
+export {space as default} from './configs/space.js';

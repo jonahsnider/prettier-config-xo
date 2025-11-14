@@ -3,7 +3,7 @@
 		"declaration": true,
 		"module": "commonjs",
 		"moduleResolution": "node",
-		"outDir": "tsc_output",
+		"outDir": "dist",
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"sourceMap": true,

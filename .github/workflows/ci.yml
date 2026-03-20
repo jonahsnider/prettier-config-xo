@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v6
+      - name: Enable Corepack
+        run: corepack enable
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
@@ -28,6 +30,8 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v6
+      - name: Enable Corepack
+        run: corepack enable
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
@@ -45,6 +49,8 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v6
+      - name: Enable Corepack
+        run: corepack enable
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
@@ -62,6 +68,8 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v6
+      - name: Enable Corepack
+        run: corepack enable
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
@@ -93,6 +101,8 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v6
+      - name: Enable Corepack
+        run: corepack enable
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:

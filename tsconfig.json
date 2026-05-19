@@ -8,8 +8,9 @@
 		// Environment Settings
 		// See also https://aka.ms/tsconfig/module
 		"module": "nodenext",
+		"rewriteRelativeImportExtensions": true,
 		"target": "es2018",
-		"types": [],
+		"types": ["node"],
 		// For nodejs:
 		// "lib": ["esnext"],
 		// "types": ["node"],

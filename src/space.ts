@@ -1,1 +1,1 @@
-export {space as default} from './configs/space.js';
+export {space as default} from './configs/space.ts';

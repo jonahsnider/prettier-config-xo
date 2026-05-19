@@ -1,1 +1,1 @@
-export {base as default} from './configs/base.js';
+export {base as default} from './configs/base.ts';

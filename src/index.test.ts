@@ -1,7 +1,8 @@
-import test from 'ava';
-import {base} from './configs/base.js';
-import index from './index.js';
+import assert from 'node:assert/strict';
+import {test} from 'node:test';
+import {base} from './configs/base.ts';
+import index from './index.ts';
 
-test('index', t => {
-	t.is(index, base, 'index.ts exports the base config');
+await test('index', () => {
+	assert.equal(index, base, 'index.ts exports the base config');
 });

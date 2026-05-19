@@ -1,7 +1,8 @@
-import test from 'ava';
-import {space as spaceConfig} from './configs/space.js';
-import space from './space.js';
+import assert from 'node:assert/strict';
+import {test} from 'node:test';
+import {space as spaceConfig} from './configs/space.ts';
+import space from './space.ts';
 
-test('space', t => {
-	t.is(space, spaceConfig, 'space.ts exports the base config');
+await test('space', () => {
+	assert.equal(space, spaceConfig, 'space.ts exports the base config');
 });

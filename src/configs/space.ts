@@ -1,5 +1,5 @@
 import type {Options} from 'prettier';
-import {base} from './base.js';
+import {base} from './base.ts';
 
 /**
  * Base XO config but uses spaces.

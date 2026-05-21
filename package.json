@@ -59,7 +59,7 @@
 		"xo": "2.0.2",
 		"zshy": "0.7.2"
 	},
-	"packageManager": "yarn@4.14.1",
+	"packageManager": "yarn@4.15.0",
 	"engines": {
 		"node": ">=10.13.0"
 	},

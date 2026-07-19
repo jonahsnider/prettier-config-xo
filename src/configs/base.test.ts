@@ -5,6 +5,4 @@ import {base} from './base.ts';
 const good: string = ['if (true) {', "\tconsole.log('hello');", '} else {', "\tconsole.log('world');", '}', ''].join('\n');
 const bad: string = ['if (true) {', "  console.log('hello')", '} else {', '  console.log("world")', '}'].join('\n');
 
-await test('base', async () => {
-	await configTest(base, good, bad);
-});
+await test('base', configTest(base, good, bad));

@@ -1,7 +1,7 @@
 import type {Options} from 'prettier';
 
 /**
- * Base XO config.
+ Base XO config.
  */
 export const base: Options = {
 	arrowParens: 'avoid',

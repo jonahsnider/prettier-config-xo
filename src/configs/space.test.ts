@@ -5,6 +5,4 @@ import {space} from './space.ts';
 const good: string = ['if (true) {', "  console.log('hello');", '} else {', "  console.log('world');", '}', ''].join('\n');
 const bad: string = ['if (true) {', "\tconsole.log('hello')", '} else {', '\tconsole.log("world")', '}'].join('\n');
 
-await test('space', async () => {
-	await configTest(space, good, bad);
-});
+await test('space', configTest(space, good, bad));

@@ -2,6 +2,6 @@ import type {Options} from 'prettier';
 import {base} from './base.ts';
 
 /**
- * Base XO config but uses spaces.
+ Base XO config but uses spaces.
  */
 export const space: Options = {...base, useTabs: false};

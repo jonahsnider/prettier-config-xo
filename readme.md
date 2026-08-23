@@ -24,9 +24,11 @@ Add the `prettier` property to your `package.json`.
 ### Extending the configuration
 
 ```js
-// prettier.config.js, or some other file
-module.exports = {
-	...require('prettier-config-xo'),
+// prettier.config.mjs, or some other module
+import xoConfig from 'prettier-config-xo';
+
+export default {
+	...xoConfig,
 	semi: false,
 };
 ```
@@ -36,5 +38,6 @@ module.exports = {
 You can use spaces instead of tabs with the space config:
 
 ```js
-module.exports = require('prettier-config-xo/space');
+// prettier.config.mjs
+export {default} from 'prettier-config-xo/space';
 ```

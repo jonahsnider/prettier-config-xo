@@ -11,8 +11,8 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v7
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Setup Yarn
+        uses: yarnpkg/setup-action@main
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
@@ -30,8 +30,8 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v7
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Setup Yarn
+        uses: yarnpkg/setup-action@main
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
@@ -49,8 +49,8 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v7
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Setup Yarn
+        uses: yarnpkg/setup-action@main
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
@@ -68,8 +68,8 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v7
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Setup Yarn
+        uses: yarnpkg/setup-action@main
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
@@ -101,8 +101,8 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v7
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Setup Yarn
+        uses: yarnpkg/setup-action@main
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:

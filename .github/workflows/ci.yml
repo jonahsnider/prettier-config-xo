@@ -11,17 +11,12 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v7
-      - name: Setup Yarn
-        uses: yarnpkg/setup-action@main
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
+      - name: Setup pnpm
+        uses: pnpm/setup@v2
         with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install
+          cache: true
       - name: Compile TypeScript
-        run: yarn run build
+        run: pnpm run build
   lint:
     name: Lint
 
@@ -30,17 +25,12 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v7
-      - name: Setup Yarn
-        uses: yarnpkg/setup-action@main
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
+      - name: Setup pnpm
+        uses: pnpm/setup@v2
         with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install
+          cache: true
       - name: Lint
-        run: yarn run lint
+        run: pnpm run lint
   style:
     name: Check style
 
@@ -49,17 +39,12 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v7
-      - name: Setup Yarn
-        uses: yarnpkg/setup-action@main
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
+      - name: Setup pnpm
+        uses: pnpm/setup@v2
         with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install
+          cache: true
       - name: Check style
-        run: yarn run style
+        run: pnpm run style
   test:
     name: Run unit tests
 
@@ -68,17 +53,12 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v7
-      - name: Setup Yarn
-        uses: yarnpkg/setup-action@main
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
+      - name: Setup pnpm
+        uses: pnpm/setup@v2
         with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install
+          cache: true
       - name: Run tests
-        run: yarn run test
+        run: pnpm run test
       - name: Submit test coverage
         uses: codecov/codecov-action@v7
         with:
@@ -101,16 +81,11 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v7
-      - name: Setup Yarn
-        uses: yarnpkg/setup-action@main
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
+      - name: Setup pnpm
+        uses: pnpm/setup@v2
         with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install
+          cache: true
       - name: Publish release
-        run: yarn run deploy
+        run: pnpm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -57,9 +57,16 @@
 		"xo": "4.0.0",
 		"zshy": "0.7.3"
 	},
-	"packageManager": "yarn@4.18.0",
+	"packageManager": "pnpm@12.0.0",
 	"engines": {
 		"node": ">=10.13.0"
+	},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": "24.x",
+			"onFail": "download"
+		}
 	},
 	"zshy": {
 		"cjs": false,

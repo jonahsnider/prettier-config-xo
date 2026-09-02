@@ -192,6 +192,5 @@ $RECYCLE.BIN/
 # TypeScript compiler output
 dist
 
-# Yarn
-.pnp.*
-.yarn/*
+# pnpm
+pnpm-lock.yaml

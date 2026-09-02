@@ -71,6 +71,9 @@
 			"onFail": "download"
 		}
 	},
+	"publishConfig": {
+		"provenance": true
+	},
 	"zshy": {
 		"cjs": false,
 		"exports": {

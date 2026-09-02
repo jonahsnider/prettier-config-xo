@@ -7,7 +7,7 @@
 		[
 			"@semantic-release/exec",
 			{
-				"prepareCmd": "yarn build"
+				"prepareCmd": "pnpm run build"
 			}
 		],
 		"@semantic-release/npm"

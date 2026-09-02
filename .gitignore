@@ -191,12 +191,3 @@ $RECYCLE.BIN/
 
 # TypeScript compiler output
 dist
-
-# Yarn
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions

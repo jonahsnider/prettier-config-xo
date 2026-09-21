@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Git repository
         uses: actions/checkout@v7
       - name: Setup pnpm
-        uses: pnpm/setup@v2
+        uses: pnpm/setup@v3
         with:
           cache: true
       - name: Compile TypeScript
@@ -26,7 +26,7 @@ jobs:
       - name: Checkout Git repository
         uses: actions/checkout@v7
       - name: Setup pnpm
-        uses: pnpm/setup@v2
+        uses: pnpm/setup@v3
         with:
           cache: true
       - name: Lint
@@ -40,7 +40,7 @@ jobs:
       - name: Checkout Git repository
         uses: actions/checkout@v7
       - name: Setup pnpm
-        uses: pnpm/setup@v2
+        uses: pnpm/setup@v3
         with:
           cache: true
       - name: Check style
@@ -54,7 +54,7 @@ jobs:
       - name: Checkout Git repository
         uses: actions/checkout@v7
       - name: Setup pnpm
-        uses: pnpm/setup@v2
+        uses: pnpm/setup@v3
         with:
           cache: true
       - name: Run tests
@@ -82,7 +82,7 @@ jobs:
       - name: Checkout Git repository
         uses: actions/checkout@v7
       - name: Setup pnpm
-        uses: pnpm/setup@v2
+        uses: pnpm/setup@v3
         with:
           cache: true
       - name: Publish release

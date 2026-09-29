@@ -167,31 +167,31 @@ importers:
   .:
     devDependencies:
       '@jonahsnider/prettier-config':
-        specifier: 2.0.2
+        specifier: ^2.0.2
         version: 2.0.2(prettier@3.9.9)
       '@semantic-release/exec':
-        specifier: 7.1.0
+        specifier: ^7.1.0
         version: 7.1.0(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)
       '@types/node':
         specifier: ^25.9.0
         version: 25.9.8
       eslint-plugin-prettier:
-        specifier: 5.5.6
+        specifier: ^5.5.6
         version: 5.5.6(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@10.9.1(jiti@2.7.0)(supports-color@10.2.2)))(eslint@10.9.1(jiti@2.7.0)(supports-color@10.2.2))(prettier@3.9.9)
       prettier:
-        specifier: 3.9.9
+        specifier: ^3.9.9
         version: 3.9.9
       semantic-release:
-        specifier: 25.0.9
+        specifier: ^25.0.9
         version: 25.0.9(supports-color@10.2.2)(typescript@6.0.3)
       typescript:
-        specifier: 6.0.3
+        specifier: ^6.0.3
         version: 6.0.3
       xo:
-        specifier: 5.0.1
+        specifier: ^5.0.1
         version: 5.0.1(@types/eslint@9.6.1)(@typescript-eslint/utils@8.68.0(eslint@10.9.1(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)
       zshy:
-        specifier: 0.8.0
+        specifier: ^0.8.0
         version: 0.8.0(typescript@6.0.3)
 
 packages:

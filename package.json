@@ -1,25 +1,11 @@
 {
 	"name": "prettier-config-xo",
 	"version": "0.0.0-development",
-	"keywords": [
-		"xo",
-		"prettier",
-		"prettier-config",
-		"xo-config"
-	],
-	"bugs": {
-		"url": "https://github.com/jonahsnider/prettier-config-xo/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/jonahsnider/prettier-config-xo.git"
-	},
+	"description": "Prettier config that follows the XO code style",
 	"license": "Apache-2.0",
-	"author": {
-		"name": "Jonah Snider",
-		"email": "jonah@jonah.pw",
-		"url": "https://jonah.pw"
-	},
+	"repository": "github:jonahsnider/prettier-config-xo",
+	"bugs": "https://github.com/jonahsnider/prettier-config-xo/issues",
+	"author": "Jonah Snider <jonah@jonahsnider.com> (https://jonahsnider.com)",
 	"type": "module",
 	"exports": {
 		".": {
@@ -31,36 +17,9 @@
 			"default": "./dist/space.js"
 		}
 	},
-	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": [
-		"dist"
-	],
-	"scripts": {
-		"build": "zshy",
-		"deploy": "semantic-release",
-		"lint": "xo",
-		"lint:fix": "xo --fix",
-		"style": "prettier --check .",
-		"test": "node --test --experimental-test-coverage src/**/*.test.ts"
-	},
-	"prettier": "@jonahsnider/prettier-config",
-	"devDependencies": {
-		"@jonahsnider/prettier-config": "2.0.2",
-		"@semantic-release/exec": "7.1.0",
-		"@types/node": "^25.9.0",
-		"eslint-plugin-prettier": "5.5.6",
-		"prettier": "3.9.9",
-		"semantic-release": "25.0.9",
-		"typescript": "6.0.3",
-		"xo": "5.0.0",
-		"zshy": "0.8.0"
-	},
-	"peerDependencies": {
-		"prettier": "^3.0.0"
-	},
-	"packageManager": "pnpm@12.6.0",
+	"sideEffects": false,
 	"engines": {
 		"node": ">=10.13.0"
 	},
@@ -74,6 +33,39 @@
 	"publishConfig": {
 		"provenance": true
 	},
+	"packageManager": "pnpm@12.6.0",
+	"scripts": {
+		"build": "zshy",
+		"deploy": "semantic-release",
+		"lint": "xo",
+		"lint:fix": "xo --fix",
+		"style": "prettier --check .",
+		"test": "node --test --experimental-test-coverage src/**/*.test.ts"
+	},
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"xo",
+		"prettier",
+		"prettier-config",
+		"xo-config"
+	],
+	"devDependencies": {
+		"@jonahsnider/prettier-config": "^2.0.2",
+		"@semantic-release/exec": "^7.1.0",
+		"@types/node": "^25.9.0",
+		"eslint-plugin-prettier": "^5.5.6",
+		"prettier": "^3.9.9",
+		"semantic-release": "^25.0.9",
+		"typescript": "^6.0.3",
+		"xo": "^5.0.1",
+		"zshy": "^0.8.0"
+	},
+	"peerDependencies": {
+		"prettier": "^3.0.0"
+	},
+	"prettier": "@jonahsnider/prettier-config",
 	"zshy": {
 		"cjs": false,
 		"exports": {

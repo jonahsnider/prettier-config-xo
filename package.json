@@ -33,7 +33,7 @@
 	"publishConfig": {
 		"provenance": true
 	},
-	"packageManager": "pnpm@12.10.1",
+	"packageManager": "pnpm@12.11.1",
 	"scripts": {
 		"build": "zshy",
 		"deploy": "semantic-release",
